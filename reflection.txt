@@ -1,0 +1,25 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+ans: I have seen the power of functions when we worked on the molar mass calculator, i saw that funtions which performs a single task is very well reusable,
+    we had to define a function that holds the formula, one that holds the periodic table, also one that calculates the molar mass. I had thought about how
+    complex this is and imagine if we would have been able to solve this problem the same way we solved problems in CSE 110. I'm left with no choicebut to say
+    Functions is a simplifier and i'ts indeed powerful!  
+     
+
+
+2. In your judgment, what is the value of test functions?
+ans: The value of test functions is very valuable to the extent that it would be of great importance for a programmer to have knowledge of test programs, 
+    this helps to assert or gives quality assurance that a function program works fine without errors.
+
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+ans: If i was to troubleshoot a program I'd first set a breakpoint on my program then use the debugger tool in VS Code to find errors on my program,
+    i am thinking of familiarizing myself with common error message this could help improve and simplify my troubleshooting process. Supposedly i find an error
+    message while running my program i can simply fix the problem without having to use VS Code debugger that is if i am familiar with error messages.
+
+
+
