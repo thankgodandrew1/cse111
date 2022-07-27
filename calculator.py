@@ -1,4 +1,4 @@
-"""Author: ThamkGod Andrew
+"""Author: ThankGod Andrew
    
    About: This program is as a result of CSE 111 Programming with Functions final project or as it's called LAST PROVE ASSSIGNMENT
            it's a python calculator that calculates some basic mathematical, chemistry, and physics problems. It isn't made to be 
@@ -7,6 +7,7 @@
 
     Purpose: This assignment is for students like me to improve and understand more about functions, test functions, how to call and use 
             python modules and method on programs and as well how to handle exception on programs.
+
     Date Completed: 12th July 2022 
     """
 import emoji
@@ -62,7 +63,7 @@ To calculate the Molarity of a substance in a volume solution (enter 21)""")
             user_choice = int(input('\nEnter your choice of calculation (1-21) enter 0 to end the program: '))
         
             if user_choice == 1:
-                base_a = float(input('\033[1;32M Enter the first base a: \n'))
+                base_a = float(input('\033[1;32M Enter the first base a: '))
                 base_b = float(input('Enter the second base b: '))
                 side_c = float(input('Enter the first side c: '))
                 side_d = float(input('Enter the second side d: '))
@@ -72,7 +73,7 @@ To calculate the Molarity of a substance in a volume solution (enter 21)""")
                 
                 # stores the result into an external file as a note
                 with open('calculator.txt', 'at') as calculator_file:
-                    print(f'{current_date_and_time:%Y-%m-%d}, the parameter of a trapezium with the following inputed value {base_a}, {base_b}, {side_c}, {side_d} = {trapezium_solution_param}cm', file=calculator_file)
+                    print(f'{current_date_and_time:%Y-%m-%d}, the perimeter of a trapezium with the following inputed value {base_a}, {base_b}, {side_c}, {side_d} = {trapezium_solution_param}cm', file=calculator_file)
             
                 print(f'Perimeter = {trapezium_solution_param}cm')
             
